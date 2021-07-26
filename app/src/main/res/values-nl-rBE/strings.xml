@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoInput</string>
+    <string name="str_hint_euro">Bedrag in euro</string>
+    <string name="str_hint_dollar">Bedrag in dollar</string>
+    <string name="str_btn_convert">Converteer</string>
+</resources>
