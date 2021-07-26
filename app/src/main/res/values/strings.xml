@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DemoInput</string>
+    <string name="str_hint_euro">Amount in euro</string>
+    <string name="str_hint_dollar">Amount in dollar</string>
 </resources>
