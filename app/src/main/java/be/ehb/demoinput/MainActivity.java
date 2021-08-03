@@ -24,8 +24,12 @@ public class MainActivity extends AppCompatActivity {
     private final View.OnClickListener convertOnClickListener=new View.OnClickListener(){
         @Override
         public void onClick(View v) {
-        if(checkEuro()){
-
+            if (!checkEuro()) {
+                return;
+            }
+           /*if(!checkDollar()){
+                return;
+            }*/
             // drukken op button convert
             // Waarde uit euro of dollar halen
             String strEuro=etEuro.getText().toString();
@@ -44,8 +48,16 @@ public class MainActivity extends AppCompatActivity {
             etDollar.setText(String.format(Locale.getDefault(),"%.2f",usd));
             // werkvloer
             // etDollar.setText(""usd);
-}}};
+        }};
 
+   /*rivate boolean checkDollar() {String strDollar=etDollar.getText().toString();
+        if(strDollar.length()<=0){
+        layoutDollar.setError("Field must be filled in");
+        return false;}
+        else {
+            layoutEuro.setError(null); return true;
+        }
+    }*/
 
 
     private final TextWatcher textWatcherEuro= new TextWatcher() {
