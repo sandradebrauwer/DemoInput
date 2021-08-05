@@ -3,4 +3,5 @@
     <string name="str_hint_euro">Amount in euro</string>
     <string name="str_hint_dollar">Amount in dollar</string>
     <string name="str_btn_convert">Convert</string>
+    <string name="ch_bx_str_turnOfservice">I agree</string>
 </resources>
